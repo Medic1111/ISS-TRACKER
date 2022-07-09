@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>ISS Tracker</title>
+  </head>
+  <body>
+    <div class="para-one">
+      <header>
+        <h1>ISS: International Space Station</h1>
+      </header>
+      <p>NASA DATA</p>
+      <p>Space station tracker via API</p>
+      <p>Web Dev: Aryse Tansy</p>
+
+      <button class="btn">Refresh</button>
+    </div>
+    <section>
+      <p class="info">Time stamp: <span class="timeStamp">000</span></p>
+      <p class="info">Longitude: <span class="longitude">0000</span></p>
+      <p class="info">Latitude:<span class="latitude">0000</span></p>
+    </section>
+    <div class="map" id="map"></div>
+    <footer>
+      <small>MEDIC1111 2022 Copyrights</small>
+    </footer>
+  </body>
+</html>
